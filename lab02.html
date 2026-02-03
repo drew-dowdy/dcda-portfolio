@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Evaluation | Drew Dowdy</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="lab02.html" class="active">Lab 2: AI Evaluation</a>
+        </nav>
+        <h1>AI Tool Evaluation</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>For this lab, I explored NotebookLM and Leonardo.AI to understand how specialized AI can assist in
+                research synthesis and visual communication within the DCDA field.</p>
+        </section>
+
+        <section>
+            <h2>Tool 1: NotebookLM</h2>
+            <h3>Capabilities</h3>
+            <p>NotebookLM excels at "source-grounded" intelligence. It generates summaries and answers based strictly on
+                uploaded documents, which significantly reduces hallucinations. However, it struggles with creative
+                tasks outside the provided context and cannot interpret complex data visualization within PDFs very
+                well.</p>
+
+            <h3>Appropriate Use</h3>
+            <p>It is perfect for synthesizing large amounts of course readings into study guides. It is a poor choice
+                for general web searching or news, as its knowledge is limited to your specific "notebook" uploads.</p>
+
+            <h3>Ethical Considerations</h3>
+            <p>Google claims data uploaded isn't used to train their global models, which protects IP. However, relying
+                on it risks creating an intellectual echo chamber by ignoring perspectives not included in the uploaded
+                files.</p>
+
+            <figure>
+                <img src="images/notebook-example.png"
+                    alt="Screenshot of NotebookLM interface showing source citations">
+                <figcaption>NotebookLM providing grounded citations from uploaded research papers.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Tool 2: Leonardo.AI</h2>
+            <h3>Capabilities</h3>
+            <p>Leonardo.AI produces high-fidelity visual assets with granular control over style and lighting. It is
+                excellent for rapid prototyping but struggles with precise text rendering and maintaining anatomical
+                accuracy in complex human poses.</p>
+
+            <h3>Appropriate Use</h3>
+            <p>A good use case is generating concept art or UI backgrounds for digital projects. A poor use case is
+                attempting to create photorealistic "news" images, which risks spreading misinformation.</p>
+
+            <h3>Ethical Considerations</h3>
+            <p>The tool is trained on vast datasets often without explicit artist consent. While they offer
+                "commercially safe" models, the question of attribution for the original artists in the training set
+                remains a major concern.</p>
+
+            <figure>
+                <img src="images/leonardo-example.png" alt="Screenshot of Leonardo AI generation gallery">
+                <figcaption>Generating stylized digital assets for a cyberpunk-themed data project.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Broader Reflections</h2>
+            <p>In a DCDA context, AI shifts the focus from "production" to "curation and auditing." While AI can
+                generate the baseline data or images, the human role is to ensure ethical accuracy and cultural
+                relevance. When evaluating future tools, I will prioritize transparency in training data and the ability
+                to verify outputs against primary sources.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Drew Dowdy | <a href="#">GitHub</a></p>
+    </footer>
+</body>
+
+</html>
