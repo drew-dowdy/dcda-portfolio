@@ -7,11 +7,11 @@
    CSS Variables (Color Scheme)
    ========================= */
 :root {
-    --primary-color: #192e79;
+    --primary-color: #c999e4;
     /* TCU Purple */
-    --secondary-color: #b6d0ff;
+    --secondary-color: #e8cff6;
     /* Light Purple */
-    --accent-color: #ffcdfa;
+    --accent-color: #e8bdff;
     /* Gold accent */
     --text-color: #333;
     /* Dark gray for text */
@@ -68,7 +68,7 @@ header p {
 }
 
 nav {
-    background-color: hsl(318, 100%, 88%);
+    background-color: hsl(277, 74%, 86%);
     padding: 0.75rem;
     display: flex;
     /* Make nav a flex container */
