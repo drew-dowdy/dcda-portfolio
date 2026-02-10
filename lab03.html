@@ -1,36 +1,99 @@
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+<!DOCTYPE html>
+<html lang="en">
 
-# Thumbnails
-._*
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Critique | Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="lab02.html">Lab 2: AI Evaluation</a>
+            <a href="lab03.html" class="active">Lab 3: Visualization Critique</a>
+            <!-- Add more lab links as the semester progresses -->
+        </nav>
+        <h1>Visualization Critique</h1>
+    </header>
 
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+    <main>
+        <section style="width: 200px;">
+            <h2>Visualization</h2>
+            <figure>
+                <img src="images/infographic.png" alt="Portugal Will End Its Coal Burning" style="width: 100%;">
+                <figcaption>
+                    <strong>Title:</strong> Beautiful News Infographic<br>
+                    <strong>Source:</strong> <a href="[URL]"
+                        target="_blank">https://informationisbeautiful.net/beautifulnews/1417-portugal-ends-coal/</a>
+                </figcaption>
+            </figure>
+        </section>
 
-# Temporary files
-*.tmp
-*.bak
-*.log
+        <section>
+            <h2>Critique</h2>
 
-# Python cache (if students add Python scripts)
-__pycache__/
-*.py[cod]
-*$py.class
+            <h3>Information Resolution</h3>
+            <p>While the infographic is visually striking, it falls short of what Edward Tufte describes as high
+                information
+                resolution. Tufte argues that a graphic’s strength lies in its ability to present a high density of
+                data, allowing the
+                viewer to make comparisons and identify patterns within a single glance. This visualization, however,
+                prioritizes
+                "beautiful" minimalism over technical depth. The vast purple area is essentially "chartjunk". Which is
+                an empty space that conveys
+                very little actual data. Because the x-axis only labels three specific years and the y-axis lacks a
+                visible scale or
+                gridlines, the viewer is unable to determine the values for the fluctuations between 2007 and 2019 and
+                makes it very confusing. The resolution is
+                further lowered by the use of "million tonnes of oil equivalent," a technical conversion that abstracts
+                the physical
+                reality of coal burning into a secondary metric, making it harder for a general audience to grasp the
+                tangible impact on
+                the environment.</p>
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+            <h3>Effects wihtout Causes</h3>
+            <p>The graphic also suffers from presenting effects without causes. The dramatic plunge in coal consumption
+                after 2019 is
+                presented as a miraculous, self-evident trend, yet the visualization provides no context for the massive
+                structural
+                shifts that produced this outcome. In reality, this decline was the result of the decommissioning of
+                Portugal’s two
+                largest coal-fired power plants, Pego and Sines, alongside a significant increase in EU carbon pricing.
+                By stripping
+                away these causal factors, the graphic suggests an inevitable decline rather than a complex transition
+                fueled by
+                specific policy decisions and investments in renewable infrastructure. It leaves the user with the
+                "what" but completely
+                ignores the "how," turning a complex industrial transition into a simple aesthetic slope.</p>
 
-# Do NOT ignore these:
-!images/.gitkeep
-archive/
+            <h3>Cherry Picking</h3>
+            <p>Furthermore, there is a distinct element of cherry-picking regarding the timeline and the global context
+                of the data. By
+                ending the primary data set in 2021, the graphic captures a period heavily influenced by the COVID-19
+                pandemic, which
+                saw a global suppression of industrial energy demand. Presenting this sharp drop without acknowledging
+                the temporary
+                downward pressure of the pandemic could lead a viewer to believe the transition was smoother or faster
+                than the
+                long-term structural reality might suggest. Additionally, the visualization blurs the line between
+                historical data and
+                "projected" outcomes. By merging the two into a single, continuous shaded shape, it risks overreaching,
+                lending the same
+                level of certainty to future forecasts as it does to verified historical facts.</p>
+
+            <h3>Conclusion</h3>
+            <p>Overall, this graphic is reaches it's aesthetic goal of modern minalism, but the lacks analytical impact.
+                It shows that coal is down, but strips away the resolution needed to understand the complexity of
+                Portugal's energy grid. </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Drew Dowdy</p>
+    </footer>
+</body>
+
+</html>
